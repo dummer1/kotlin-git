@@ -1,0 +1,257 @@
+1- Escreva um algoritmo para ler um valor (do teclado) e escrever (na tela) o seu antecessor.
+
+2- Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a
+área do retângulo.
+
+3- Escreva um algoritmo para ler o número total de eleitores de um município, o número de votos
+brancos, nulos e válidos. Calcular e escrever o percentual que cada um representa em relação ao total
+de eleitores.
+
+4- Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste.
+Calcular e escrever o valor do novo salário.
+
+5- Faça um algoritmo que leia três notas de um aluno, calcule e escreva a média final deste aluno.
+
+6- Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso
+contrário escrever NÃO É MAIOR QUE 10!
+
+7- Ler um valor e escrever se é positivo ou negativo (considere o valor zero como positivo).
+
+8- Ler as notas da 1a. e 2a. avaliações de um aluno. Calcular a média aritmética simples e escrever
+uma mensagem que diga se o aluno foi ou não aprovado (considerar que nota igual ou maior que 6 o
+aluno é aprovado). Escrever também a média calculada.
+
+9- Ler dois valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+
+10- Ler dois valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+
+11- A jornada de trabalho semanal de um funcionário é de 40 horas. O funcionário que trabalhar mais
+de 40 horas receberá hora extra, cujo cálculo é o valor da hora regular com um acréscimo de 50%.
+Escreva um algoritmo que leia o número de horas trabalhadas em um mês, o salário por hora e escreva
+o salário total do funcionário, que deverá ser acrescido das horas extras, caso tenham sido trabalhadas
+(considere que o mês possua 4 semanas exatas).
+
+12- Ler o salário fixo e o valor das vendas efetuadas pelo vendedor de uma empresa. Sabendo-se que
+ele recebe uma comissão de 3% sobre o total das vendas até R$ 1.500,00 mais 5% sobre o que
+ultrapassar este valor, calcular e escrever o seu salário total.
+
+13- Faça um algoritmo para ler: número da conta do cliente, saldo, débito e crédito. Após, calcular e
+escrever o saldo atual (saldo atual = saldo - débito + crédito). Também testar se saldo atual for maior
+ou igual a zero escrever a mensagem 'Saldo Positivo', senão escrever a mensagem 'Saldo Negativo'.
+
+14- Faça um algoritmo para ler: quantidade atual em estoque, quantidade máxima em estoque e
+quantidade mínima em estoque de um produto. Calcular e escrever a quantidade média ((quantidade
+média = quantidade máxima + quantidade mínima)/2). Se a quantidade em estoque for maior ou igual
+a quantidade média escrever a mensagem 'Não efetuar compra', senão escrever a mensagem 'Efetuar
+compra'.
+
+15- Ler um valor e escrever se é positivo, negativo ou zero.
+
+16- Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+17- Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2
+maiores.
+
+18- Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente.
+
+19- Ler 3 valores (A, B e C) representando as medidas dos lados de um triângulo e escrever se formam
+ou não um triângulo. OBS: para formar um triângulo, o valor de cada lado deve ser menor que a soma
+dos outros 2 lados.
+
+20- Ler o nome de 2 times e o número de gols marcados na partida (para cada time). Escrever o nome
+do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
+
+21- Ler dois valores e imprimir uma das três mensagens a seguir:
+‘Números iguais’, caso os números sejam iguais
+‘Primeiro é maior’, caso o primeiro seja maior que o segundo;
+‘Segundo maior’, caso o segundo seja maior que o primeiro.
+
+22- Um posto está vendendo combustíveis com a seguinte tabela de descontos:
+até 20 litros, desconto de 3% por litro Álcool
+acima de 20 litros, desconto de 5% por litro
+até 20 litros, desconto de 4% por litro Gasolina
+acima de 20 litros, desconto de 6% por litro
+Escreva um algoritmo que leia o número de litros vendidos e o tipo de combustível (codificado da
+seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se
+que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.
+
+23- Escreva um algoritmo que leia as idades de 2 homens e de 2 mulheres (considere que as idades
+dos homens serão sempre diferentes entre si, bem como as das mulheres). Calcule e escreva a soma
+das idades do homem mais velho com a mulher mais nova, e o produto das idades do homem mais
+novo com a mulher mais velha.
+
+24- Faça um algoritmo para ler um número que é um código de usuário. Caso este código seja
+diferente de um código armazenado internamente no algoritmo (igual a 1234) deve ser apresentada a
+mensagem ‘Usuário inválido!’. Caso o Código seja correto, deve ser lido outro valor que é a senha. Se
+esta senha estiver incorreta (a certa é 9999) deve ser mostrada a mensagem ‘senha incorreta’. Caso a
+senha esteja correta, deve ser mostrada a mensagem ‘Acesso permitido’.
+
+25- Faça um algoritmo para ler: a descrição do produto (nome), a quantidade adquirida e o preço
+unitário. Calcular e escrever o total (total = quantidade adquirida * preço unitário), o desconto e o total
+a pagar (total a pagar = total - desconto), sabendo-se que:
+ - Se quantidade <= 5 o desconto será de 2%
+ - Se quantidade > 5 e quantidade <=10 o desconto será de 3%
+ - Se quantidade > 10 o desconto será de 5%
+
+26- Uma empresa quer verificar se um empregado está qualificado para a aposentadoria ou não. Para
+estar em condições, um dos seguintes requisitos deve ser satisfeito:
+ - Ter no mínimo 65 anos de idade.
+ - Ter trabalhado no mínimo 30 anos.
+ - Ter no mínimo 60 anos e ter trabalhado no mínimo 25 anos.
+Com base nas informações acima, faça um algoritmo que leia: o número do empregado (código), o ano
+de seu nascimento e o ano de seu ingresso na empresa. O programa deverá escrever a idade e o tempo
+de trabalho do empregado e a mensagem 'Requerer aposentadoria' ou 'Não requerer'.
+
+27- Escreva um algoritmo para ler 2 valores e se o segundo valor informado for ZERO, deve ser lido
+um novo valor, ou seja, para o segundo valor não pode ser aceito o valor zero e imprimir o resultado
+da divisão do primeiro valor lido pelo segundo valor lido.
+
+28- Escreva um algoritmo para ler as notas da 1a. e 2a. avaliações de um aluno, calcule e imprima a
+média (simples) desse aluno. Só devem ser aceitos valores válidos durante a leitura (0 a 10) para cada
+nota.
+
+29- Acrescente uma mensagem 'NOVO CÁLCULO (S/N)?' ao final do exercício anterior. Se for
+respondido 'S' deve retornar e executar um novo cálculo, caso contrário deverá encerrar o algoritmo.
+
+30- Escreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem
+crescente.
+
+31-vEscreva um algoritmo para imprimir os números de 1 (inclusive) a 10 (inclusive) em ordem
+decrescente.
+
+32- Escreva um algoritmo para imprimir os 10 primeiros números inteiros maiores que 100.
+
+33- Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). Considere
+que o N será sempre maior que ZERO.
+
+34- Modifique o exercício anterior para aceitar somente valores maiores que 0 para N. Caso o valor
+informado (para N) não seja maior que 0, deverá ser lido um novo valor para N.
+
+35- Escreva um algoritmo que calcule e imprima a tabuada do 8 (1 a 10).
+
+36- Ler um valor inteiro (aceitar somente valores entre 1 e 10) e escrever a tabuada de 1 a 10 do valor
+lido.
+
+37- Ler 10 valores e escrever quantos desses valores lidos são NEGATIVOS.
+
+38- Ler 10 valores e escrever quantos desses valores lidos estão no intervalo entre 10 e vinte (inlcuindo os
+valores 10 e 20 no intervalo) e quantos deles estão fora deste intervalo.
+
+39- Ler 10 valores, calcular e escrever a média aritmética desses valores lidos.
+
+40- Ler o número de alunos existentes em uma turma e, após isto, ler as notas destes alunos, calcular e
+escrever a média aritmética dessas notas lidas.
+
+41- Escreva um algoritmo para ler 10 números e ao final da leitura escrever a soma total dos 10
+números lidos.
+
+42- Escreva um algoritmo para ler 10 números. Todos os números lidos com valor inferior a 40 devem
+ser somados. Escreva o valor final da soma efetuada.
+
+43- Ler 2 valores, calcular e escrever a soma dos inteiros existentes entre os 2 valores lidos (incluindo
+os valores lidos na soma). Considere que o segundo valor lido será sempre maior que o primeiro valor
+lido.
+
+44- Faça um algoritmo que calcule e escreva a média aritmética dos números inteiros entre 15
+(inclusive) e 100 (inclusive).
+
+45- Uma loja está levantando o valor total de todas as mercadorias em estoque. Escreva um algoritmo
+que permita a entrada das seguintes informações: a) o número total de mercadorias no estoque; b) o
+valor de cada mercadoria. Ao final imprimir o valor total em estoque e a média de valor das
+mercadorias.
+
+46- O mesmo exercício anterior, mas agora não será informado o número de mercadorias em estoque.
+Então o funcionamento deverá ser da seguinte forma: ler o valor da mercadoria e perguntar ‘MAIS
+MERCADORIAS (S/N)?’. Ao final, imprimir o valor total em estoque e a média de valor das
+mercadorias em estoque.
+
+47- Faça um programa que leia 10 valores e no final, escreva o maior e o menor valor lido.
+
+48- Faça um algoritmo para ler uma quantidade e a seguir ler esta quantidade de números. Depois de
+ler todos os números o algoritmo deve apresentar na tela o maior dos números lidos e a média dos
+números lidos.
+
+49- Faça um algoritmo para ler o código e o preço de 15 produtos, calcular e escrever:
+- o maior preço lido
+- a média aritmética dos preços dos produtos
+
+50- A prefeitura de uma cidade deseja fazer uma pesquisa entre seus habitantes. Faça um algoritmos
+para coletar dados sobre o salário e número de filhos de cada habitante e após as leituras, escrever:
+a) Média de salário da população
+b) Média do número de filhos
+c) Maior salário dos habitantes
+d) Percentual de pessoas com salário menor que R$ 150,00
+Obs.: O final da leituras dos dados se dará com a entrada de um “salário negativo”.
+
+51- Escreva um algoritmo que imprima a tabuada (de 1 a 10) para os números de 1 a 10.
+
+52- Escreva um algoritmo que imprima as seguintes seqüências de números: (1, 1 2 3 4 5 6 7 8 9 10)
+(2, 1 2 3 4 5 6 7 8 9 10) (3, 1 2 3 4 5 6 7 8 9 10) (4, 1 2 3 4 5 6 7 8 9 10) e assim sucessivamente, até
+que o primeiro número (antes da vírgula), também chegue a 10.
+
+53- Imagine que exista um comando chamado "posiciona (x,y)" em alguma linguagem de
+programação. Onde o X representaria a coluna que algo deve ser impresso na tela, e Y a linha que
+algo deve ser impresso na tela. Desta forma, o algoritmo abaixo:
+início
+posiciona (10,2)
+escrever ‘Olá’
+fim
+Escreveria a palavra ‘Olá’ na segunda linha da tela, a partir da 10 coluna. Baseado nesta situação,
+escreva um algoritmo, utilizando este comando 'posiciona' citado, que desenhe na tela um retângulo de
+60 colunas (a partir da coluna 1 da tela) e 10 linhas (a partir da linha 1 da tela), sendo que a borda deste
+retângulo será formada pelo caractere ‘+’. Lembre que somente a primeira e última linha deverão ter
+todas as colunas preenchidas com o caractere ‘+’. As demais linhas (entre 2 e 9) só terão as colunas 1 e
+60 preenchidas.
+
+54- Escreva um algoritmo que permita a leitura dos nomes de 10 pessoas e armaze os nomes lidos em
+um array. Após isto, o algoritmo deve permitir a leitura de mais 1 nome qualquer de pessoa e depois
+escrever a mensagem ACHEI, se o nome estiver entre os 10 nomes lidos anteriormente (guardados no
+array), ou NÃO ACHEI caso contrário.
+
+55- Escreva um algoritmo que permita a leitura das notas de uma turma de 20 alunos. Calcular a média
+da turma e contar quantos alunos obtiveram nota acima desta média calculada. Escrever a média da
+turma e o resultado da contagem.
+
+56- Ler um array de 7 posições (aceitar somente números positivos). Escrever a seguir o valor do
+maior elemento e a respectiva posição que ele ocupa no array.
+
+57- O mesmo exercício anterior, mas agora deve escrever o menor elemento do array e a respectiva
+posição dele nesse array.
+
+58- Ler um array A de 10 números. Após, ler mais um número e guardar em uma variável X.
+Armazenar em um array M o resultado de cada elemento de A multiplicado pelo valor X. Logo após,
+imprimir o array M.
+
+59- Faça um algoritmo para ler 7 números e armazenar em um array. Após a leitura total dos 7
+números, o algoritmo deve escrever esses 7 números lidos na ordem inversa.
+
+60- Faça um algoritmo para ler um valor N qualquer (que será o tamanho dos arrays). Após, ler dois
+arrays A e B (de tamanho N cada um) e depois armazenar em um terceiro array Soma a soma dos
+elementos do array A com os do array B (respeitando as mesmas posições) e escrever o array Soma.
+
+62- Faça um algoritmo para ler e armazenar em um array a temperatura média de todos os dias da semana.
+Calcular e escrever:
+a) Menor temperatura do semana
+b) Maior temperatura do semana
+c) Temperatura média da semana
+d) O número de dias na semana em que a temperatura foi inferior a média
+
+63- Faça um algoritmo para ler 10 números e armazenar em um array. Após isto, o algoritmo deve
+ordenar os números no array em ordem crescente. Escrever o array ordenado.
+
+64- O mesmo exercício anterior, mas depois de ordenar os elementos do array em ordem crescente,
+deve ser lido mais um número qualquer e inserir esse novo número na posição correta, ou seja,
+mantendo a ordem crescente do array.
+
+65- Faça um algoritmo para ler um array de 5 números. Após isto, deverá ser lido mais um número
+qualquer e verificar se esse número existe no array ou não. Se existir, o algoritmo deve gerar um novo
+array sem esse número. (Considere que não haverão números repetidos no array).
+
+66- Faça um algoritmo para ler dois arrays V1 e V2 de 15 números cada. Calcular e escrever a
+quantidade de vezes que V1 e V2 possuem os mesmos números e nas mesmas posições.
+
+67- Faça um algoritmo para ler um array de 14 números. Após isto, ler mais um número qualquer,
+calcular e escrever quantas vezes esse número aparece no array.
+
+68- Faça um algoritmo para ler 10 números e armazenar em um array, verificar e escrever se
+existem números repetidos no array e em que posições se encontram.
