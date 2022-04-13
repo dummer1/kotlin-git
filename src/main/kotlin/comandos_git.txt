@@ -1,0 +1,32 @@
+inicializar diretorio do git: git init
+
+obs: adicionar arquivo .gitignore para ignorar arquivos desnecessarios
+
+ver status dos arquivos no diretorio: git status
+
+ver diferença de codigo entre arquivos: git diff
+
+ver log de commits: git log
+
+ver qual branch esta no momento: git branch
+
+adicionar um arquivo para o git enxergar: git add (caminho + nome do arquivo) - ex: src/main.kt
+
+adicionar todos os arquivos untracked: git add .
+
+commitar arquivos: git commit -m "mensagem"
+obs: se quiser commitar todos os arquivos: git commit -am "mensagem"
+
+subir arquivos para o servidor remoto: git push
+obs: se o repositorio nao estiver ainda no servidor o proprio git ira sugerir o comando ex:git push --set-upstream origin (nome da branch)
+
+criar uma nova branch: git checkout -b (nome da branch)
+
+mudar para outra branch: git checkout (nome da branch)
+
+atualizar branch local com os arquivos da branch remota: git pull
+
+juntar arquivos de uma branch em outra branch (mergear):
+passo 1: ir para a branch que vai receber os arquivos novos , ex: git chechout (nome da branch que vai recerber os arquivos)
+passo 2: atualizar arquivos da branch que vai receber: git pull
+passo 3: git merge (nome da branch que vai enviar os arquivos)
