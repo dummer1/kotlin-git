@@ -1,30 +1,32 @@
-inicializar diretorio do git: git init
+
+
+git init: inicializar diretorio do git
 
 obs: adicionar arquivo .gitignore para ignorar arquivos desnecessarios
 
-ver status dos arquivos no diretorio: git status
+git status: ver status dos arquivos no diretorio
 
-ver diferença de codigo entre arquivos: git diff
+git diff: ver diferença de codigo entre arquivos
 
-ver log de commits: git log
+git log: ver log de commits
 
-ver qual branch esta no momento: git branch
+git branch: ver qual branch esta no momento
 
-adicionar um arquivo para o git enxergar: git add (caminho + nome do arquivo) - ex: src/main.kt
+git add (caminho + nome do arquivo) - ex: src/main.kt: adicionar um arquivo para o git enxergar
 
-adicionar todos os arquivos untracked: git add .
+git add . : adicionar todos os arquivos untracked
 
-commitar arquivos: git commit -m "mensagem"
-obs: se quiser commitar todos os arquivos: git commit -am "mensagem"
+git commit -m "mensagem": commitar arquivos
+git commit -am "mensagem": obs: se quiser commitar todos os arquivos
 
-subir arquivos para o servidor remoto: git push
+git push: subir arquivos para o servidor remoto
 obs: se o repositorio nao estiver ainda no servidor o proprio git ira sugerir o comando ex:git push --set-upstream origin (nome da branch)
 
-criar uma nova branch: git checkout -b (nome da branch)
+git checkout -b (nome da branch): criar uma nova branch
 
-mudar para outra branch: git checkout (nome da branch)
+git checkout (nome da branch): mudar para outra branch
 
-atualizar branch local com os arquivos da branch remota: git pull
+git pull: atualizar branch local com os arquivos da branch remota
 
 juntar arquivos de uma branch em outra branch (mergear):
 passo 1: ir para a branch que vai receber os arquivos novos , ex: git chechout (nome da branch que vai recerber os arquivos)
